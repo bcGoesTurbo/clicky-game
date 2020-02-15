@@ -1,5 +1,5 @@
 .navbar {
-  background: grey;
+  background: #000 url(//cssanimation.rocks/demo/starwars/images/bg.jpg) !important;
   min-height: 70px;
   font-size: 18px;
   padding: 20px 0;

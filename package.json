@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gasp": "^0.0.2",
     "install": "^0.13.0",
     "npm": "^6.13.7",
     "react": "^16.4.0",
@@ -27,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/bcGoesTurbo/clicky-game/issues"
   },
-  "homepage": "https://github.com/bcGoesTurbo/clicky-game#readme"
+  "homepage": "https://github.com/bcGoesTurbo/clicky-game#readme",
+  "devDependencies": {}
 }
