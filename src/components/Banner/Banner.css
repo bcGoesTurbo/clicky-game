@@ -7,6 +7,18 @@
   font-size: 18px;
 }
 
+.container {
+  flex: 1;
+  align-items: 'center';
+  justify-content: 'center';
+}
+
+.image {
+  width: 300;
+  height: 300
+}
+
+
 @media (min-width: 576px) {
   .banner {
     font-size: calc(10px + 14 * (100vw - 320px) / 800);

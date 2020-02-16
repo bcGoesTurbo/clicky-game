@@ -10,6 +10,7 @@ import countDooku from './images/countDooku.jpg';
 import empirorPalpartine from './images/empirorPalpartine.jpg';
 import kyloRen from './images/kyloRen.jpg';
 import ray from './images/ray.jpg';
+import CWlogo from './images/CWlogo.png';
 
 const images = [
   yoda,
@@ -23,7 +24,8 @@ const images = [
   countDooku,
   empirorPalpartine,
   kyloRen,
-  ray
+  ray,
+  CWlogo
 ];
 
 export default images;

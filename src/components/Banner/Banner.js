@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Banner.css';
+import CWlogo from '../../images/CWlogo.png'
+
 
 const Banner = () => (
   <div className="banner text-center d-flex align-items-center justify-content-center">
-    <p className="m-0">Click on an image to earn points, but don't click on any more than once!</p>
+    <img src={CWlogo} alt="Logo" />
   </div>
-);
+)
+
 
 export default Banner;
-
-
 

@@ -8,8 +8,11 @@
     "npm": "^6.13.7",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-image-fade-in": "^1.1.0",
+    "react-native": "^0.61.5",
     "react-scripts": "1.1.4",
-    "react-star-wars-crawl": "^2.0.0"
+    "react-star-wars-crawl": "^2.0.0",
+    "react-art": "~16.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
