@@ -2,22 +2,26 @@
   "name": "react-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bcGoesTurbo.github.io/clicky-game",
   "dependencies": {
     "gasp": "^0.0.2",
+    "gh-pages": "^2.2.0",
     "install": "^0.13.0",
     "npm": "^6.13.7",
     "react": "^16.4.0",
+    "react-art": "~16.0.0",
     "react-dom": "^16.4.0",
     "react-image-fade-in": "^1.1.0",
     "react-native": "^0.61.5",
     "react-scripts": "1.1.4",
-    "react-star-wars-crawl": "^2.0.0",
-    "react-art": "~16.0.0"
+    "react-star-wars-crawl": "^2.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "description": "Click game built with React to track clicks and present the user with a score. The game will track each clicked image a user makes. If the same image is clicked twice the game will be reset. Each correct click increments the users score by 1. The highest score for the session is saved and displayed to the user.",
@@ -31,6 +35,5 @@
   "bugs": {
     "url": "https://github.com/bcGoesTurbo/clicky-game/issues"
   },
-  "homepage": "https://github.com/bcGoesTurbo/clicky-game#readme",
   "devDependencies": {}
 }
